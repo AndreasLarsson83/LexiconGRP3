@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Roboto&display=swap');
+
+/* 
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Creepster';
+*/
+
+.fronttext {
+    font-family: 'Creepster';
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(104, 161, 211);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+.subtext {
+    font-family: 'Creepster';
+    color: blueviolet;
+    padding-left: 3rem;
+    line-height: 0;
+    font-size: 25px;
+    padding-bottom: 1rem;
+}
+
+/* navbar-top */
+#navbar-top {
+    z-index: 10000;
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+#navbar-top .social-media-links i {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+#navbar-top .youtube i {
+    color: rgb(255, 0, 0);
+}
+
+#navbar-top .twitch i {
+    color: rgb(128, 5, 121);
+}
+a {
+    color:#2baaec;
+}
+a:hover {
+    color: #25e6c8;
+}
+/* navbar */
+#navbar {
+    position: fixed;
+
+}
+.nav-font {
+    font-size: 20px !important;
+    padding-right: 4rem;
+}
+/*Home Content*/
+.spacing {
+    padding-left: 2rem;
+    padding-top: 12rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+}
+.color-cont {
+    background-color: #0f381d;
+}
+.sub-color {
+    background-color: rgb(37, 148, 37);
+}
+.card-font {
+    font-family: 'Roboto', sans-serif;
+    color: blanchedalmond;
+
+}
+.card-bg {
+    background-color: #020c0c;
+    opacity: 1;
+}
+.card {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/*Member content*/
+.m-cont {
+    padding-left: 2rem;
+}
+.links {
+    scroll-margin-top: 150px;
+}
+.image-pad{
+    padding: 0rem;
+}
+.card-pad {
+    margin: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 12rem;
+}
+
+@media (min-width: 992px) {
+    #navbar {
+        height: 150px;
+    }
+    #navbar .navbar-nav .nav-link {
+        font-size: 1.125rem;    
+    }
+}
+
+
+@media (min-width: 1920px) {
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+      max-width: 1700px;
+    }
+}
