@@ -206,7 +206,30 @@ padding-top: 5px;
     text-align: center;
 
 }
-
+.starst i {
+    color: red;
+}
+.starsts i {
+    color: rgb(0, 255, 55);
+}
+.starstss i {
+    color: rgb(156, 35, 146);
+}
+.starstb i {
+    color: rgb(72, 38, 192);
+}
+.starst1 i {
+    color: rgb(171, 173, 50);
+}
+.starst2 i {
+    color: rgb(148, 85, 148);
+}
+.starst3 i {
+    color: rgb(21, 184, 212);
+}
+.starst4 i {
+    color: rgb(209, 202, 159);
+}
 .block{
     padding-left: 10rem;
     padding-top: 5rem;
