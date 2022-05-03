@@ -44,7 +44,13 @@ font-family: 'Creepster';
 #navbar-top .navfont {
 
     font-size: 16px;
-    font-weight: normal;
+    font-weight: bold;
+    padding-right: rem;
+    color: rgb(0, 0, 0) !important;
+
+}
+#navbar-top .navfont:hover{
+    color: rgb(255, 0, 0) !important;
 }
 #navbar-top .container-fluid {
     max-width: 1700px !important;
@@ -64,7 +70,7 @@ a {
     color:#2baaec;
 }
 a:hover {
-    color: #25e6c8;
+    color: #e62525;
 }
 /* navbar */
 #navbar {
@@ -138,3 +144,20 @@ a:hover {
       max-width: 1700px;
     }
 }
+
+/*Product-List*/
+.card-group{
+    padding: 2rem;
+}
+
+.card-pads{
+    margin-right: 1rem;
+}
+
+.box{
+    width: 400px;
+    height: 400px
+    border: 5px solid black;
+
+}
+
