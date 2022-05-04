@@ -82,6 +82,34 @@ a:hover {
     padding-right: 4rem;
 }
 /*Home Content*/
+#top .font {
+    font-family: 'Poppins', sans-serif;
+    font-size: 65px;
+    font-weight: bolder;
+    line-height: 70px;
+}
+#top .subfont {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+#top .zindex {
+    padding-top: 22rem;
+    top:50%;
+    width: 100%;
+    text-align: center;
+}
+
+#top .shopnow {
+    line-height: 5rem;
+}
+#home1 .paddi{
+    padding-top: 65px;
+    padding-left: 120px;
+}
+#home1 .paddin{
+    padding-top: 65px;
+}
+
 .spacing {
     padding-left: 2rem;
     padding-top: 12rem;
@@ -206,7 +234,30 @@ padding-top: 5px;
     text-align: center;
 
 }
-
+.starst i {
+    color: #FF7373;
+}
+.starsts i {
+    color: #FF7373;
+}
+.starstss i {
+    color: #FF7373;
+}
+.starstb i {
+    color: #FF7373;
+}
+.starst1 i {
+    color: #FF7373;
+}
+.starst2 i {
+    color: #FF7373;
+}
+.starst3 i {
+    color: #FF7373;
+}
+.starst4 i {
+    color: #FF7373;
+}
 .block{
     padding-left: 10rem;
     padding-top: 5rem;
