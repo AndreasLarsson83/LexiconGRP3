@@ -35,9 +35,9 @@
             </div>
         </nav>
         <!--navbar-top end-->
+
         <div class="product-description-page">
 
-        
             <!-- Ad-spot -->
             <div class="ad-container">
                 <div class="ad-text">
@@ -48,32 +48,48 @@
 
             <!-- Location -->
             <div class="location-container">
-                <div>
-                    <i class="fas fa-home-lg-alt"></i>
-                </div>
                 <div class="location-text">
-                    <a href="placeholder"><h3>Home > Product</h3></a>
+                    <strong><bold><i class="fas fa-home-lg-alt"></i> Categories > Product </bold></strong>
                 </div>
             </div>
             <!-- Location end -->
 
             <!-- Product-description -->
-            <div class="product-description">
+            <div class="product-description-container">
                 <div class="product">
                     <div class="product-image-container">
-                        <div class="product-image"><img src="https://www.pexels.com/sv-se/foto/mat-stad-man-person-8988468/" alt=""></div>
-                        <div class="product-image-selection"></div>
+                        <div class="product-image"><img id="skor" src="bilder/sko1.jpg" alt="Product-image"></div>
+                        <div class="product-image-selection">
+                          <button class="button" onclick="skor()"><img src="bilder/sko1.jpg" alt="Product-image"></button>
+                          <script>
+                              function skor(){
+                                  document.getElementById("skor").src = "bilder/sko1.jpg";
+                              }
+                              </script>
+                              <button class="button" onclick="skor1()"><img src="bilder/sko2.jpg" alt="Product-image"></button>
+                              <script>
+                                  function skor1(){
+                                      document.getElementById("skor").src = "bilder/sko2.jpg";
+                                  }
+                                  </script>
+                                  <button class="button" onclick="skor2()"><img src="bilder/sko3.jpg" alt="Product-image"></button>
+                                  <script>
+                                      function skor2(){
+                                          document.getElementById("skor").src = "bilder/sko3.jpg";
+                                      }
+                                      </script>
+                        </div>
                     </div>
                     <div class="product-text-container">
-                        <div class="product-name"></div>
-                        <div class="product-brand"></div>
-                        <div class="product-rating"></div>
-                        <div class="product-price"></div>
-                        <div class="product-text"></div>
-                        <div class="product-size"></div>
-                        <div class="product-color"></div>
-                        <div class="product-quantity"></div>
-                        <div class="product-share"></div>
+                        <div class="product-name"><h2>Sko1</h2></div>
+                        <div class="product-brand"><h6>Inte-Nike</h6></div>
+                        <div class="product-rating"><i class="far fa-star"></i><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <div class="product-price"><h4>$45.00</h4></div>
+                        <div class="product-text"><p>Discovered had get considered projection who favourable. Necessary up knowledge it tolerably. Unwilling departure education is be dashwoods or an. Use off agreeable law unwilling sir deficient curiosity instantly. (read more) </p></div>
+                        <div class="product-size"><h5>Size:</h5></div>
+                        <div class="product-color"><h5>Color:</h5></div>
+                        <div class="product-quantity"><h5>Qty:</h5></div>
+                        <div class="product-share"><h5>Share:</h5></div>
                     </div>
                 </div>
                 <div class="product-nav-bar">
@@ -82,16 +98,63 @@
                     <div class="shopping"></div>
                     <div class="reviews"></div>
                 </div>
-                <div class="product-nav-text"></div>
-                <div class="related-products">
-                    <h2>Related Products</h2>
+                <div class="product-nav-text">
+                    <p>Way extensive and dejection get delivered deficient sincerity gentleman age. Too end instrument possession contrasted motionless. Calling offence six joy feeling. Coming merits and was talent enough far. Sir joy northward sportsmen education. Discovery incommode earnestly no he commanded if. Put still any about manor heard. </p>
+                    <p>* Village did removed enjoyed explain nor ham saw calling talking.</p>
+                    <p>* Securing as informed declared or margaret.</p>
+                    <p>* Joy horrible moreover man feelings own shy.</p>
+                    <p>On even feet time have an no at. Relation so in confined smallest children unpacked delicate. Why sir end believe uncivil respect. Always get adieus nature day course for common. My little garret repair to desire he esteem. </p>
                 </div>
-                <div class="related-products-card"></div>
             </div>
             <!-- Product-description end -->
+
+            <!-- Related-products -->
+            <div class="related-products-container">
+                <h2>Related Products</h2>
+                <div class="related-products-card">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a short card.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <!-- Related-products end -->
+            
         </div>
-
-
 
         <!-- footer-->
         <footer>
