@@ -429,6 +429,7 @@ position: absolute;
     justify-content: center;
     margin-top: 100px;
     width: 60%;
+    border: 1px solid black;
 }
 
 .ad-text > a {
@@ -436,6 +437,7 @@ position: absolute;
 }
 
     .ad-text > a > h3 {
+        font-size: large;
         color: #FF7373;
     }
 /* Ad-spot end */
@@ -497,7 +499,7 @@ position: absolute;
 
 .product-text-container {
     display: grid;
-    grid-area: repeat(auto-fit, auto-fit);
+    grid-template-rows: repeat(9, 75px);
     grid-gap: 10px;
     /* display: flex;
     flex-direction: column;
