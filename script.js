@@ -5,12 +5,15 @@ var currentValue = 1;
 
 minus.addEventListener("click", function(){
     currentValue -= 1;
-    quantityNumber.value = currentValue;
+    quantityNumber.value = Math.max(1, currentValue);
     console.log(currentValue)
+    if ( currentValue <= 0){
+        currentValue = 1;
+        };
 });
 
 add.addEventListener("click", function() {
     currentValue += 1;
-    quantityNumber.value = currentValue;
+    quantityNumber.value = Math.max(1, currentValue);
     console.log(currentValue);
 });
