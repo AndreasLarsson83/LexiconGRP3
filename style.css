@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Roboto&display=swap');
 
 /* 
-
 font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
@@ -421,6 +420,12 @@ position: absolute;
     width: 100%;
     font-family: 'Poppins', sans-serif;
 }
+
+.product-description-page p, h5 {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
 .center-page {
     display: flex;
     flex-direction: column;
@@ -526,7 +531,7 @@ position: absolute;
     .product-name p {
         font-family: 'Poppins', sans-serif;
         font-size: 1.5rem;
-        font-weight: bolder;
+        font-weight: 600;
     }
 
     .product-brand {
@@ -535,7 +540,7 @@ position: absolute;
         font-family: 'Poppins', sans-serif;
         font-size: 0.75rem;
         font-weight: bolder;
-        letter-spacing: 0.1rem
+        letter-spacing: 0.1rem;
     }
 
         .id-container {
@@ -559,6 +564,11 @@ position: absolute;
     font-family: 'Poppins', sans-serif;
     font-size: 1.125rem;
     font-weight: 600;
+    margin-bottom: 0.7rem;
+}
+
+.product-text {
+    margin-bottom: 0.7rem;
 }
 
 .product-text span {
@@ -576,6 +586,11 @@ position: absolute;
     display: flex;
     align-items: center;
     height: 4rem;
+    margin-bottom: 1rem;
+}
+
+.product-size, .product-color {
+    margin-bottom: 1rem;
 }
 
 .btn-group {
@@ -583,11 +598,16 @@ position: absolute;
 }
 
 .size-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color:#020c0c;
     background-color: #ffffff;
     border-color:#020c0c;
+    width: 40px;
+    height: 40px;
     border-radius: 0;
-    margin-right: 0.6rem;
+    margin-right: 10px;
 }
 
 .size-btn:hover {
@@ -641,6 +661,10 @@ position: absolute;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+}
+
+.form-select {
+    color: #616365;
 }
 
 .dropdown {
@@ -709,6 +733,7 @@ margin-right: 1.5rem;
     width: 180px;
     background-color: #FF7373;
     border-color:#FF7373;
+    font-weight: bold;
 }
 
 .product-share-links {
@@ -743,6 +768,11 @@ margin-right: 1.5rem;
 /* Style the tab */
 .tab {
     overflow: hidden;
+    margin-bottom: 0.7rem;
+}
+
+.tabcontent p {
+    margin-bottom: 0.7rem;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -864,7 +894,11 @@ hr {
     margin-bottom: 20px;
 }
 
-.related-products-container h2 {
+.related-products-container p {
+    font-size: 1.25rem;
+    font-weight: 600;
     margin-bottom: 20px;
 }
 /* Related-products end */
+
+
