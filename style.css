@@ -421,7 +421,7 @@ position: absolute;
     font-family: 'Poppins', sans-serif;
 }
 
-.product-description-page p, h5 {
+.product-description-page p, .product-description-page h5, .cart-body p {
     margin-top: 0;
     margin-bottom: 0rem;
 }
@@ -915,3 +915,56 @@ hr {
 .grön-kant {
     border: 3px solid green;
 }
+
+
+#cart-center {
+    width: 1110px;
+}
+
+.homee {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.blockk {
+
+}
+
+.blå-kant {
+    border: 3px solid rgb(0, 87, 128);
+}
+
+.orange-kant {
+    border: 3px solid rgb(196, 113, 53);
+}
+
+#shopping-cart {
+    width: 100%;
+}
+
+.box1 {
+    width: 50%;
+}
+
+    .registrera-användare {
+
+    }
+
+    .ange-adress {
+        
+    }
+    
+    .välj-fraktsätt {
+        
+    }
+
+    .betalning {
+    
+    } 
+.box2 {
+    width: 50%;
+}
+
+
