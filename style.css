@@ -949,11 +949,39 @@ hr {
 }
 
     .registrera-användare {
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3rem;
+        font-size: 15pt;
+        font-weight: 700;
     }
 
-    .ange-adress {
+    .order-checkout {
+        background-color: #F0EAEA;
+        display: flex;
+        align-items: center;
+        height: 70px;
+        font-size: 15pt;
+        font-weight: 700;
+    }
+
+    .active-checkout {
+        background-color: #FF7373 !important;
+    }
+
+    .active-checkout-menu {
         
+    }
+
+    .circle-number {
+        width: 3rem;
+        height: 3rem;
+        border: 1px solid black;
+        border-radius: 50%;
+        font-size: 15pt;
+        font-weight: 700;
+        margin: 1rem;
     }
     
     .välj-fraktsätt {
@@ -967,4 +995,9 @@ hr {
     width: 50%;
 }
 
+.c-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
