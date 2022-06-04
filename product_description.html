@@ -1,417 +1,494 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="description" content="This is a test website">
-		<title>Description</title>
-        <script src="https://kit.fontawesome.com/ed9b259a7c.js" crossorigin="anonymous"></script>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
 
-	</head>
-    <body>
-        <!--navbar-top -->
-        <nav id="navbar-top" class="d-none d-md-flex">
-            <div class="container-fluid d-flex justify-content-between">
-                <div class="working-hours d-flex align-items-center align-text-right">
-                    <span>Hubbleroom.</span>
-                </div>
-                    <div class="navfont d-flex  align-items-center">
-                            <a class="nav-link navfont" href="index.html">Home</a>
-                            <a class="nav-link navfont" href="product_list.html">Categories</a>
-                            <a class="nav-link navfont" aria-current="page" href="#">Brands</a>
-                            <a class="nav-link navfont" href="#On Sale">On Sale</a>
-                            <a class="nav-link navfont" href="#News">News</a>
-                    
-                        <div class="navbar-nav ms-auto d-flex">
-                    </div>
-                </div>
-                <div class="social-media-links d-flex align-items-center">
-                    <a class="search" href=""><img src="bilder/Group 436.png" alt="search"></a>
-                    <a class="link" href=""><img src="bilder/Group 437.png" alt="link"></a>
-                    <a class="Heart" href=""><img src="bilder/Group 438.png" alt="heart"></a>
-                    <a class="checkout" href="cart.html"><img src="bilder/Group 439.png" alt="checkout"></a>
-                </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="This is a test website">
+  <title>Description</title>
+  <script src="https://kit.fontawesome.com/ed9b259a7c.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!--navbar-top -->
+  <nav id="navbar-top" class="d-none d-md-flex">
+    <div class="container-fluid d-flex justify-content-between">
+      <div class="working-hours d-flex align-items-center align-text-right">
+        <span>Hubbleroom.</span>
+      </div>
+      <div class="navfont d-flex  align-items-center">
+        <a class="nav-link navfont" href="index.html">Home</a>
+        <a class="nav-link navfont" href="product_list.html">Categories</a>
+        <a class="nav-link navfont" aria-current="page" href="#">Brands</a>
+        <a class="nav-link navfont" href="#On Sale">On Sale</a>
+        <a class="nav-link navfont" href="#News">News</a>
+
+        <div class="navbar-nav ms-auto d-flex">
+        </div>
+      </div>
+      <div class="social-media-links d-flex align-items-center">
+        <a class="search" href=""><img src="bilder/Group 436.png" alt="search"></a>
+        <a class="link" href=""><img src="bilder/Group 437.png" alt="link"></a>
+        <a class="Heart" href=""><img src="bilder/Group 438.png" alt="heart"></a>
+        <a class="checkout" href="cart.html"><img src="bilder/Group 439.png" alt="checkout"></a>
+      </div>
+    </div>
+  </nav>
+  <!--navbar-top end-->
+
+  <div class="product-description-page">
+    <div class="center-page">
+
+      <!-- Ad-spot -->
+      <div class="ad-container">
+        <div class="ad-text">
+          <a href="">
+            <p>Get 25% OFF at the Fixxo Selection - Shop Now!</p>
+          </a>
+        </div>
+      </div>
+      <!-- Ad-spot end -->
+
+      <!-- Location -->
+      <div class="location-container">
+        <div class="location-text">
+          <strong>
+            <bold><i class="fas fa-home-lg-alt"></i> Categories > Product </bold>
+          </strong>
+        </div>
+      </div>
+      <!-- Location end -->
+
+      <!-- Product-description -->
+      <div class="product-description-container">
+        <div class="product">
+          <div class="product-image-container">
+            <div class="product-image">
+              <img id="skor" src="bilder/sko1.jpg" alt="Product-image">
             </div>
-        </nav>
-        <!--navbar-top end-->
-
-        <div class="product-description-page">
-          <div class="center-page">
-
-            <!-- Ad-spot -->
-            <div class="ad-container">
-                <div class="ad-text">
-                    <a href=""><p>Get 25% OFF at the Fixxo Selection - Shop Now!</p></a>
-                </div>
+            <div class="product-image-selection">
+              <button class="button" onclick="skor()"><img src="bilder/sko1.jpg" alt="Product-image"></button>
+              <script>
+                function skor() {
+                  document.getElementById("skor").src = "bilder/sko1.jpg";
+                }
+              </script>
+              <button class="button" onclick="skor1()"><img src="bilder/sko2.jpg" alt="Product-image"></button>
+              <script>
+                function skor1() {
+                  document.getElementById("skor").src = "bilder/sko2.jpg";
+                }
+              </script>
+              <button class="button" onclick="skor2()"><img src="bilder/sko3.jpg" alt="Product-image"></button>
+              <script>
+                function skor2() {
+                  document.getElementById("skor").src = "bilder/sko3.jpg";
+                }
+              </script>
             </div>
-            <!-- Ad-spot end -->
-
-            <!-- Location -->
-            <div class="location-container">
-                <div class="location-text">
-                    <strong><bold><i class="fas fa-home-lg-alt"></i> Categories > Product </bold></strong>
-                </div>
+          </div>
+          <div class="product-text-container">
+            <div class="product-name">
+              <p>Sko 1</p>
             </div>
-            <!-- Location end -->
-
-            <!-- Product-description -->
-            <div class="product-description-container">
-                <div class="product">
-                    <div class="product-image-container">
-                        <div class="product-image">
-                          <img id="skor" src="bilder/sko1.jpg" alt="Product-image">
-                        </div>
-                        <div class="product-image-selection">
-                            <button class="button" onclick="skor()"><img src="bilder/sko1.jpg" alt="Product-image"></button>
-                            <script>
-                                function skor(){
-                                    document.getElementById("skor").src = "bilder/sko1.jpg";
-                                }
-                            </script>
-                            <button class="button" onclick="skor1()"><img src="bilder/sko2.jpg" alt="Product-image"></button>
-                            <script>
-                                function skor1(){
-                                    document.getElementById("skor").src = "bilder/sko2.jpg";
-                                }
-                            </script>
-                            <button class="button" onclick="skor2()"><img src="bilder/sko3.jpg" alt="Product-image"></button>
-                            <script>
-                                function skor2(){
-                                    document.getElementById("skor").src = "bilder/sko3.jpg";
-                                }
-                            </script>
-                        </div>
-                    </div>
-                    <div class="product-text-container">
-                        <div class="product-name"><p>Sko 1</p></div>
-                        <div class="product-brand"><div class="id-container"><p>SKU:</p><p>12345670</p></div><div class="id-container"><p>BRAND: </p><p>Inte-Nike</p></div></div>
-                        <div class="product-rating starst"><i class="far fa-star"></i><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div class="product-price"><p>$35.00</p></div>
-                        <div class="product-text"><span>Discovered had get considered projection who favourable. Necessary up knowledge it tolerably. Unwilling departure education is be dashwoods or an. Use off agreeable law unwilling sir deficient curiosity instantly. </span>(<a href="">read more</a>)</div>
-                        <div class="product-size">
-                          <h5>Size:</h5>
-                          <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off">
-                            <label class="btn btn-outline-primary size-btn fw-bold" for="btnradio1">S</label>
-                          
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                            <label class="btn btn-outline-primary size-btn fw-bold" for="btnradio2">M</label>
-                          
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-                            <label class="btn btn-outline-primary size-btn fw-bold" for="btnradio3">L</label>
-
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
-                            <label class="btn btn-outline-primary size-btn fw-bold" for="btnradio4">X</label>
-                          </div>
-                        </div>
-                        <div class="product-color">
-                          <h5>Color:</h5>
-                          <select class="form-select" aria-label="Default select example">
-                            <option selected class="gray-option">Choose an Option</option>
-                            <option value="1">Red</option>
-                            <option value="2">Blue</option>
-                            <option value="3">Yellow</option>
-                          </select>
-                        </div>
-                        <div class="product-quantity">
-                          <h5>Qty:</h5>
-                          <div class="input-group">
-                            <span class="input-group-btn">
-                                <button class="btn btn-default btn-subtract border fw-bold" type="button">-</button>
-                            </span>
-                            <input type="text" class="form-control no-padding text-center item-quantity fw-bold" value="1" oninput="this.value = Math.abs(this.value)">
-                            <span class="input-group-btn">
-                                <button class="btn btn-default btn-add border fw-bold" type="button">+</button>
-                            </span>
-                          </div>
-                          <button class="btn btn-primary" type="submit">ADD TO CART</button>
-                        </div>
-                        
-                        <div class="product-share-links">
-                          <h5>Share:</h5>
-                          <a class="facebook" href=""><i class="fab fa-facebook-f"></i></a>
-                          <a class="instagram" href=""><i class="fab fa-instagram"></i></a>
-                          <a class="twitter" href=""><i class="fab fa-twitter"></i></a>
-                          <a class="google" href=""><i class="fab fa-google"></i></a>
-                          <a class="linkedin" href=""><i class="fab fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-tab-container">
-                  
-                  <!-- Tab links -->
-                  <div class="tab">
-                    <button class="tablinks" onclick="openTab(event, 'Description')" id="defaultOpen">Description</button>
-                    <button class="tablinks" onclick="openTab(event, 'Additional')">Additional</button>
-                    <button class="tablinks" onclick="openTab(event, 'Shopping')">Shopping</button>
-                    <button class="tablinks" onclick="openTab(event, 'Reviews')">Reviews</button>
-                  </div>
-
-                  <!-- Tab content -->
-                  <div id="Description" class="tabcontent">
-                    <p>Way extensive and dejection get delivered deficient sincerity gentleman age. Too end instrument possession
-                      contrasted motionless. Calling offence six joy feeling. Coming merits and was talent enough far. Sir joy northward
-                      sportsmen education. Discovery incommode earnestly no he commanded if. Put still any about manor heard. </p>
-                    <p>* Village did removed enjoyed explain nor ham saw calling talking.</p>
-                    <p>* Securing as informed declared or margaret.</p>
-                    <p>* Joy horrible moreover man feelings own shy.</p>
-                    <p>On even feet time have an no at. Relation so in confined smallest children unpacked delicate. Why sir end believe
-                      uncivil respect. Always get adieus nature day course for common. My little garret repair to desire he esteem. </p>
-                  </div>
-                  
-                  <div id="Additional" class="tabcontent">
-                    <p>* Village did removed enjoyed explain nor ham saw calling talking.</p>
-                    <p>* Securing as informed declared or margaret.</p>
-                    <p>* Joy horrible moreover man feelings own shy.</p>
-                  </div>
-                  
-                  <div id="Shopping" class="tabcontent">
-                    <p>On even feet time have an no at. Relation so in confined smallest children unpacked delicate. Why sir end believe uncivil respect. Always get adieus nature day course for common. My little garret repair to desire he esteem. </p>
-                    <p>Way extensive and dejection get delivered deficient sincerity gentleman age. Too end instrument possession contrasted motionless. Calling offence six joy feeling. Coming merits and was talent enough far. Sir joy northward sportsmen education. Discovery incommode earnestly no he commanded if. Put still any about manor heard. </p>
-                  </div>
-                  
-                  <div id="Reviews" class="tabcontent">
-                    <p>On even feet time have an no at. Relation so in confined smallest children unpacked delicate. Why sir end believe uncivil respect. Always get adieus nature day course for common. My little garret repair to desire he esteem. </p>
-                    <p>* Joy horrible moreover man feelings own shy.</p>
-                  </div>
-                </div>
-                
+            <div class="product-brand">
+              <div class="id-container">
+                <p>SKU:</p>
+                <p>12345670</p>
+              </div>
+              <div class="id-container">
+                <p>BRAND: </p>
+                <p>Inte-Nike</p>
+              </div>
             </div>
-            <!-- Product-description end -->
-
-            <!-- Related-products -->
-            <div class="related-products-container">
-                <div class="related-products-nav">
-                  <p>Related Products</p>
-                  <div class="carousel-arrows">
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-                </div>
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <div class="row row-cols-1 row-cols-md-4 g-4">
-                        <div class="col">
-                          <div class="card h-100">
-                            <img src="https://images.pexels.com/photos/2043590/pexels-photo-2043590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <span>Category</span>  
-                              <h5 class="card-title">Modern Blue Blouse</h5>       
-                              <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                              <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="card h-100">
-                            <img src="https://images.pexels.com/photos/3689153/pexels-photo-3689153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <span>Category</span>  
-                              <h5 class="card-title">Modern Blue Blouse</h5>       
-                              <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                              <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="card h-100">
-                            <img src="https://images.pexels.com/photos/3949688/pexels-photo-3949688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <span>Category</span>  
-                              <h5 class="card-title">Modern Blue Blouse</h5>       
-                              <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                              <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="card h-100">
-                            <img src="https://images.pexels.com/photos/8050084/pexels-photo-8050084.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <span>Category</span>  
-                              <h5 class="card-title">Modern Blue Blouse</h5>       
-                              <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                              <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="row row-cols-1 row-cols-md-4 g-4">
-                        <div class="col">
-                          <div class="card h-100">
-                            <img src="bilder/sko1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <span>Category</span>  
-                              <h5 class="card-title">Modern Blue Blouse</h5>       
-                              <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                              <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="card h-100">
-                            <img src="https://images.pexels.com/photos/794062/pexels-photo-794062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <span>Category</span>  
-                              <h5 class="card-title">Modern Blue Blouse</h5>       
-                              <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                              <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="card h-100">
-                            <img src="https://images.pexels.com/photos/4126252/pexels-photo-4126252.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <span>Category</span>  
-                              <h5 class="card-title">Modern Blue Blouse</h5>       
-                              <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                              <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="card h-100">
-                            <img src="https://images.pexels.com/photos/1308885/pexels-photo-1308885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <span>Category</span>  
-                              <h5 class="card-title">Modern Blue Blouse</h5>       
-                              <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                              <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="row row-cols-1 row-cols-md-4 g-4">
-                        <div class="col">
-                          <div class="card h-100">
-                            <img src="https://images.pexels.com/photos/2043590/pexels-photo-2043590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <span>Category</span>  
-                              <h5 class="card-title">Modern Blue Blouse</h5>       
-                              <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                              <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="card h-100">
-                            <img src="https://images.pexels.com/photos/3689153/pexels-photo-3689153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <span>Category</span>  
-                              <h5 class="card-title">Modern Blue Blouse</h5>       
-                              <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                              <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="card h-100">
-                            <img src="https://images.pexels.com/photos/3949688/pexels-photo-3949688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <span>Category</span>  
-                              <h5 class="card-title">Modern Blue Blouse</h5>       
-                              <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                              <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="card h-100">
-                            <img src="https://images.pexels.com/photos/8050084/pexels-photo-8050084.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <span>Category</span>  
-                              <h5 class="card-title">Modern Blue Blouse</h5>       
-                              <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                              <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
+            <div class="product-rating starst"><i class="far fa-star"></i><i class="far fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <div class="product-price">
+              <p>$35.00</p>
             </div>
-            <!-- Related-products end -->
-          </div>  
+            <div class="product-text"><span>Discovered had get considered projection who favourable. Necessary up
+                knowledge it tolerably. Unwilling departure education is be dashwoods or an. Use off agreeable law
+                unwilling sir deficient curiosity instantly. </span>(<a href="">read more</a>)</div>
+            <div class="product-size">
+              <h5>Size:</h5>
+              <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off">
+                <label class="btn btn-outline-primary size-btn fw-bold" for="btnradio1">S</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                <label class="btn btn-outline-primary size-btn fw-bold" for="btnradio2">M</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                <label class="btn btn-outline-primary size-btn fw-bold" for="btnradio3">L</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+                <label class="btn btn-outline-primary size-btn fw-bold" for="btnradio4">X</label>
+              </div>
+            </div>
+            <div class="product-color">
+              <h5>Color:</h5>
+              <select class="form-select" aria-label="Default select example">
+                <option selected class="gray-option">Choose an Option</option>
+                <option value="1">Red</option>
+                <option value="2">Blue</option>
+                <option value="3">Yellow</option>
+              </select>
+            </div>
+            <div class="product-quantity">
+              <h5>Qty:</h5>
+              <div class="input-group">
+                <span class="input-group-btn">
+                  <button class="btn btn-default btn-subtract border fw-bold" type="button">-</button>
+                </span>
+                <input type="text" class="form-control no-padding text-center item-quantity fw-bold" value="1"
+                  oninput="this.value = Math.abs(this.value)">
+                <span class="input-group-btn">
+                  <button class="btn btn-default btn-add border fw-bold" type="button">+</button>
+                </span>
+              </div>
+              <button class="btn btn-primary" type="submit">ADD TO CART</button>
+            </div>
+
+            <div class="product-share-links">
+              <h5>Share:</h5>
+              <a class="facebook" href=""><i class="fab fa-facebook-f"></i></a>
+              <a class="instagram" href=""><i class="fab fa-instagram"></i></a>
+              <a class="twitter" href=""><i class="fab fa-twitter"></i></a>
+              <a class="google" href=""><i class="fab fa-google"></i></a>
+              <a class="linkedin" href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="product-tab-container">
+
+          <!-- Tab links -->
+          <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Description')" id="defaultOpen">Description</button>
+            <button class="tablinks" onclick="openTab(event, 'Additional')">Additional</button>
+            <button class="tablinks" onclick="openTab(event, 'Shopping')">Shopping</button>
+            <button class="tablinks" onclick="openTab(event, 'Reviews')">Reviews</button>
+          </div>
+
+          <!-- Tab content -->
+          <div id="Description" class="tabcontent">
+            <p>Way extensive and dejection get delivered deficient sincerity gentleman age. Too end instrument
+              possession
+              contrasted motionless. Calling offence six joy feeling. Coming merits and was talent enough far. Sir joy
+              northward
+              sportsmen education. Discovery incommode earnestly no he commanded if. Put still any about manor heard.
+            </p>
+            <p>* Village did removed enjoyed explain nor ham saw calling talking.</p>
+            <p>* Securing as informed declared or margaret.</p>
+            <p>* Joy horrible moreover man feelings own shy.</p>
+            <p>On even feet time have an no at. Relation so in confined smallest children unpacked delicate. Why sir end
+              believe
+              uncivil respect. Always get adieus nature day course for common. My little garret repair to desire he
+              esteem. </p>
+          </div>
+
+          <div id="Additional" class="tabcontent">
+            <p>* Village did removed enjoyed explain nor ham saw calling talking.</p>
+            <p>* Securing as informed declared or margaret.</p>
+            <p>* Joy horrible moreover man feelings own shy.</p>
+          </div>
+
+          <div id="Shopping" class="tabcontent">
+            <p>On even feet time have an no at. Relation so in confined smallest children unpacked delicate. Why sir end
+              believe uncivil respect. Always get adieus nature day course for common. My little garret repair to desire
+              he esteem. </p>
+            <p>Way extensive and dejection get delivered deficient sincerity gentleman age. Too end instrument
+              possession contrasted motionless. Calling offence six joy feeling. Coming merits and was talent enough
+              far. Sir joy northward sportsmen education. Discovery incommode earnestly no he commanded if. Put still
+              any about manor heard. </p>
+          </div>
+
+          <div id="Reviews" class="tabcontent">
+            <p>On even feet time have an no at. Relation so in confined smallest children unpacked delicate. Why sir end
+              believe uncivil respect. Always get adieus nature day course for common. My little garret repair to desire
+              he esteem. </p>
+            <p>* Joy horrible moreover man feelings own shy.</p>
+          </div>
         </div>
 
-        <!-- footer-->
-        <footer>
-            <div id="footers" class="container-fluid row bg-colorsfot">
-                <div class="row custo textaligns">
-                <div class="card" style="width: 250px;">
-                    <div class="card-body bodys">
-                      <strong class="card-title">Customer Service<br></strong>
-                      <a class="navfont" href="">Help & FAQs<br></a>
-                      <a class="navfont" href="">Order Lookup<br></a>
-                      <a class="navfont" href="">Shipping & Delivery<br></a>
-                      <a class="navfont" href="">Returns<br></a>
-                      <a class="navfont" href="">Contact Us<br></a>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 310px;">
-                    <div class="card-body bodys">
-                      <strong class="card-title">Macy's Credit Card<br></strong>
-                      <a class="navfont" href="">Macy's Card Services<br></a>
-                      <a class="navfont" href="">Pay Your Credit Card Bill<br></a>
-                      <a class="navfont" href="">Cardholder Benefits<br></a>
-                      <a class="navfont" href="">Apply for Macy's Credit Card<br></a>
-                    </div>
-                  </div>     
-                  <div class="card" style="width: 270px;">
-                    <div class="card-body bodys">
-                      <strong class="card-title">Our Stores<br></strong>
-                      <a class="navfont" href="">Stores & Services<br></a>
-                      <a class="navfont" href="">Locations & Hours<br></a>
-                      <a class="navfont" href="">Store Events<br></a>
-                      <a class="navfont" href="">Catalogs<br></a>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 400px;">
-                    <div class="card-body bodys stores">
-                      <strong class="card-title">Macy's App<br></strong>
-                      <div class="d-flex stores">
-                        <a class="stores" href=""><img src="bilder/app-store-badge.png" alt="app store"></a>
-                        <a class="stores" href=""><img src="bilder/google-play-badge.png" alt="google play"></a>                 
-                      </div>
-                      <div class="d-flex social-links">
-                        <a class="facebook" href="https://www.youtube.com/channel/UCDWCd_cTXVUTva7xxWIgjJA"><i class="fab fa-facebook-f"></i></a>
-                        <a class="instagram" href="https://www.twitch.tv/paschendale86"><i class="fab fa-instagram"></i></a>
-                        <a class="twitter" href="https://www.youtube.com/channel/UCDWCd_cTXVUTva7xxWIgjJA"><i class="fab fa-twitter"></i></a>
-                        <a class="google" href="https://www.twitch.tv/paschendale86"><i class="fab fa-google"></i></a>
-                        <a class="linkedin" href="https://www.twitch.tv/paschendale86"><i class="fab fa-linkedin"></i></a>
-                      </div>
+      </div>
+      <!-- Product-description end -->
+
+      <!-- Related-products -->
+      <div class="related-products-container">
+        <div class="related-products-nav">
+          <p>Related Products</p>
+          <div class="carousel-arrows">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img
+                      src="https://images.pexels.com/photos/2043590/pexels-photo-2043590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                      class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <span>Category</span>
+                      <h5 class="card-title">Modern Blue Blouse</h5>
+                      <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i
+                          class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                      <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
                     </div>
                   </div>
                 </div>
-                <div class="containe-fot border">
-                    <p class="navfot">© 2022 Hubbleroom. All Rights Reserved</p>
-    
+                <div class="col">
+                  <div class="card h-100">
+                    <img
+                      src="https://images.pexels.com/photos/3689153/pexels-photo-3689153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                      class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <span>Category</span>
+                      <h5 class="card-title">Modern Blue Blouse</h5>
+                      <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i
+                          class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                      <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
+                    </div>
+                  </div>
                 </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img
+                      src="https://images.pexels.com/photos/3949688/pexels-photo-3949688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                      class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <span>Category</span>
+                      <h5 class="card-title">Modern Blue Blouse</h5>
+                      <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i
+                          class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                      <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img
+                      src="https://images.pexels.com/photos/8050084/pexels-photo-8050084.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                      class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <span>Category</span>
+                      <h5 class="card-title">Modern Blue Blouse</h5>
+                      <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i
+                          class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                      <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="script.js"></script> 
-    </body>
+            <div class="carousel-item">
+              <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="bilder/sko1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <span>Category</span>
+                      <h5 class="card-title">Modern Blue Blouse</h5>
+                      <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i
+                          class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                      <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img
+                      src="https://images.pexels.com/photos/794062/pexels-photo-794062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                      class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <span>Category</span>
+                      <h5 class="card-title">Modern Blue Blouse</h5>
+                      <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i
+                          class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                      <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img
+                      src="https://images.pexels.com/photos/4126252/pexels-photo-4126252.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                      class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <span>Category</span>
+                      <h5 class="card-title">Modern Blue Blouse</h5>
+                      <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i
+                          class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                      <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img
+                      src="https://images.pexels.com/photos/1308885/pexels-photo-1308885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                      class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <span>Category</span>
+                      <h5 class="card-title">Modern Blue Blouse</h5>
+                      <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i
+                          class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                      <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img
+                      src="https://images.pexels.com/photos/2043590/pexels-photo-2043590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                      class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <span>Category</span>
+                      <h5 class="card-title">Modern Blue Blouse</h5>
+                      <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i
+                          class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                      <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img
+                      src="https://images.pexels.com/photos/3689153/pexels-photo-3689153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                      class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <span>Category</span>
+                      <h5 class="card-title">Modern Blue Blouse</h5>
+                      <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i
+                          class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                      <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img
+                      src="https://images.pexels.com/photos/3949688/pexels-photo-3949688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                      class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <span>Category</span>
+                      <h5 class="card-title">Modern Blue Blouse</h5>
+                      <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i
+                          class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                      <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img
+                      src="https://images.pexels.com/photos/8050084/pexels-photo-8050084.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                      class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <span>Category</span>
+                      <h5 class="card-title">Modern Blue Blouse</h5>
+                      <div class="starst"><i class="far fa-star"></i><i class="far fa-star"></i><i
+                          class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                      <p class="card-text"><small class="text-muted"> <strong>$35.00</strong></small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- Related-products end -->
+    </div>
+  </div>
+
+  <!-- footer-->
+  <footer>
+    <div id="footers" class="container-workaround row-workaround bg-colorsfot">
+      <div class="row-workaround custo textaligns">
+        <div class="card" style="width: 250px;">
+          <div class="card-body bodys">
+            <strong class="card-title">Customer Service<br></strong>
+            <a class="navfont" href="">Help & FAQs<br></a>
+            <a class="navfont" href="">Order Lookup<br></a>
+            <a class="navfont" href="">Shipping & Delivery<br></a>
+            <a class="navfont" href="">Returns<br></a>
+            <a class="navfont" href="">Contact Us<br></a>
+          </div>
+        </div>
+        <div class="card" style="width: 310px;">
+          <div class="card-body bodys">
+            <strong class="card-title">Macy's Credit Card<br></strong>
+            <a class="navfont" href="">Macy's Card Services<br></a>
+            <a class="navfont" href="">Pay Your Credit Card Bill<br></a>
+            <a class="navfont" href="">Cardholder Benefits<br></a>
+            <a class="navfont" href="">Apply for Macy's Credit Card<br></a>
+          </div>
+        </div>
+        <div class="card" style="width: 270px;">
+          <div class="card-body bodys">
+            <strong class="card-title">Our Stores<br></strong>
+            <a class="navfont" href="">Stores & Services<br></a>
+            <a class="navfont" href="">Locations & Hours<br></a>
+            <a class="navfont" href="">Store Events<br></a>
+            <a class="navfont" href="">Catalogs<br></a>
+          </div>
+        </div>
+        <div class="card" style="width: 400px;">
+          <div class="card-body bodys stores">
+            <strong class="card-title">Macy's App<br></strong>
+            <div class="d-flex stores">
+              <a class="stores" href=""><img src="bilder/app-store-badge.png" alt="app store"></a>
+              <a class="stores" href=""><img src="bilder/google-play-badge.png" alt="google play"></a>
+            </div>
+            <div class="d-flex social-links">
+              <a class="facebook" href="https://www.youtube.com/channel/UCDWCd_cTXVUTva7xxWIgjJA"><i
+                  class="fab fa-facebook-f"></i></a>
+              <a class="instagram" href="https://www.twitch.tv/paschendale86"><i class="fab fa-instagram"></i></a>
+              <a class="twitter" href="https://www.youtube.com/channel/UCDWCd_cTXVUTva7xxWIgjJA"><i
+                  class="fab fa-twitter"></i></a>
+              <a class="google" href="https://www.twitch.tv/paschendale86"><i class="fab fa-google"></i></a>
+              <a class="linkedin" href="https://www.twitch.tv/paschendale86"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="containe-fot border-workaround">
+        <p class="navfot">© 2022 Hubbleroom. All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
 </html>
