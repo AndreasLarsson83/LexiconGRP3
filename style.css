@@ -501,10 +501,13 @@ position: absolute;
 
 .product {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+    gap: 2em;
+}
+
+.product > * {
+    flex-basis: calc(calc(540px - 100%) * 999);
+    flex-grow: 1;
 }
 
 .product-image-container {
