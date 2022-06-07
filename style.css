@@ -725,6 +725,10 @@ position: absolute;
     margin-right: 3rem;
 }
 
+.form-control.no-padding.text-center.item-quantity.fw-bold {
+    font-size: 0.98rem !important;
+}
+
 .form-control {
     display: block;
     width: 200px;
